@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ConstraintLayout tela;
     private TextView tvPergunta,tvNumero,tvSim,tvNao,tvResposta;
-    private int count,acertos;
+    private int count,acertos,total_perguntas;
 
     Pergunta perguntas[];
 
