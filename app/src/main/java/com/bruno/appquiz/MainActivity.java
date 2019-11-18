@@ -29,14 +29,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         
+	    count =0;
+        acertos=0;
+        total_perguntas=5;
         tvResposta = findViewById(R.id.tvresposta);
         tvSim=findViewById(R.id.tvsim);
         tvNao=findViewById(R.id.tvnao);
         tvPergunta = findViewById(R.id.tvPergunta);
         tvNumero = findViewById(R.id.tvnumero);
         tela = findViewById(R.id.tela);
-	count =-1;
-        acertos=0;
               
 
 
